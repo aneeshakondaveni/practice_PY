@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 const {LoginPage} = require('../pages/LoginPage')
 
-test.only('has title', async ({ page }) => {
+test('has title', async ({ page }) => {
  
  const  Login = new LoginPage(page)
  await Login.gotoLoginPage();
