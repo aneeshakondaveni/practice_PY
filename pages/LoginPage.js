@@ -18,6 +18,7 @@ async gotoLoginPage() {
     // }
     for(let i=0;i< await this.prod.count();++i){
         console.log( await this.prod.nth(i).textContent())
+        console.log("hello")
     }
 }
 }
